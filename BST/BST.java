@@ -2,7 +2,6 @@
  * This code is an Implementation of Binary Search Tree.
  * taking an assumption that all inputs element are unique
  */
-import java.util.Comparator;
 
 public class BST <T extends Comparable<T>> {
     // attributes
@@ -151,9 +150,8 @@ public class BST <T extends Comparable<T>> {
 
     }
 
-
     public static void main (String [] args) {
-        BST <Integer> btree = new BST();
+        BST <Integer> btree = new BST<>();
         int[] input = {3,2,-1,5,9,4};
 
         for (int i : input) {
